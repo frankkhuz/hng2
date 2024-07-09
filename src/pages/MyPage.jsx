@@ -6,6 +6,7 @@ import RightBar from '../components/RightBar'
 import Banner from '../components/Banner'
 import SemiFooter from '../components/SemiFooter'
 import Footer from '../components/Footer'
+import Last from '../components/Last'
 
 
 const MyPage = () => {
@@ -20,6 +21,7 @@ const MyPage = () => {
         </div>
         <SemiFooter/>
         <Footer/>
+        <Last/>
 
     </div>
   )

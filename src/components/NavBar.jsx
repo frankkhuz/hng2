@@ -28,7 +28,8 @@ const NavBar = () => {
             border: "1px solid black",
             padding: "5px",
             width: "200px",
-            backgroundColor:"grey",
+            backgroundColor:" rgba(217, 217, 217, 1)"
+            ,
             borderRadius:"1rem",
             height:"20px"
           }}
@@ -41,11 +42,12 @@ const NavBar = () => {
           <input
             type="text"
             style={{
+              fontSize:"5px",
               width: "100%",
               height: "20px",
               border: "none",
               outline: "none",
-              backgroundColor:"grey",
+              backgroundColor: "rgba(217, 217, 217, 1)"
             
               
               

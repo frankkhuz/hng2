@@ -4,12 +4,12 @@ import phone from "../images/Vector (7).png"
 
 const Footer = () => {
   return (
-    <div style={{height:"30rem",width:"90%",backgroundColor:"grey",display:"flex",flexDirection:"column"}}>
+    <div style={{width:"90%",backgroundColor:"grey",display:"flex",justifyContent:"space-between"}}>
         <div style={{border:"1px solid black",height:"8rem", width:"7rem"}}>
         <ul>
             <li>Support</li>
             <li>No 6, Zika street Avenue Lagos,Nigeria</li>
-            <img src={message} alt="" style={{height:"15px", width:"15px"}}/>
+            <div style={{display:"flex"}}><img src={message} alt="" style={{height:"15px", width:"15px"}}/></div>
             <img src={phone} alt="" style={{height:"15px", width:"15px"}}/> <span>08066784588</span>
         </ul>
         </div>

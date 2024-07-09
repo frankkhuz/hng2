@@ -12,7 +12,8 @@ const LeftBar = () => {
     >
       <button
         style={{
-          backgroundColor: "grey",
+          backgroundColor: "rgba(217, 217, 217, 1)"
+,
           fontSize: "14px",
           width: "6rem",
           height: "2rem",
@@ -34,7 +35,7 @@ const LeftBar = () => {
             marginBottom: "1rem",
           }}
         >
-          <p>CATEGORIES</p> <span>-</span>
+          <p style={{fontWeight:"bolder"}}>CATEGORIES</p> <span>-</span>
         </div>
         <div
           style={{
@@ -105,7 +106,7 @@ const LeftBar = () => {
             marginBottom: "1rem",
           }}
         >
-          <p>GENDER</p> <span>-</span>
+          <p style={{fontWeight:"bolder"}}>GENDER</p> <span>-</span>
         </div>
         <div
           style={{
@@ -162,7 +163,7 @@ const LeftBar = () => {
             marginBottom: "1rem",
           }}
         >
-          <p>SIZE</p> <span>-</span>
+          <p style={{fontWeight:"bolder"}}>SIZE</p> <span>-</span>
         </div>
         <div style={{marginLeft:"2rem",display:"flex", justifyContent:"space-between",width:"50%"}}>
           <p>4XL</p><p>3XL</p><p>2XL</p><p>1XL</p>
@@ -187,16 +188,18 @@ const LeftBar = () => {
             marginBottom: "1rem",
           }}
         >
-          <p>COLOR</p> <span>-</span>
+          <p style={{fontWeight:"bolder"}}>COLOR</p> <span>-</span>
         </div>
         
         <div style={{display:"flex",marginLeft:"2rem", width:"50%",justifyContent:"space-between"}}>
-          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"red"}}></div>
-          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"red"}}></div>
-          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"red"}}></div>
-          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"red"}}></div>
-          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"red"}}></div>
-          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"red"}}></div>
+          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor: "rgba(176, 16, 16, 1)"
+}}></div>
+          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor: "rgba(0, 0, 0, 1)"
+}}></div>
+          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"green"}}></div>
+          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"#9A10B0"}}></div>
+          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"#FF543E"}}></div>
+          <div style={{height:"1rem", width:"1rem",borderRadius:"50%",backgroundColor:"#001A72"}}></div>
         </div>
         
       </div>
