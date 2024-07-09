@@ -11,18 +11,17 @@ import Last from '../components/Last'
 
 const MyPage = () => {
   return (
-    <div style={{maxWidth: '100%', border: '2px solid black'}}>
+    <div className="max-w-full border-2 border-black">
         <TopBar/>
         <NavBar/>
         <Banner/>
-        <div style={{marginBottom:"2rem", display: 'flex', alignItems: 'center'}}>
+        <div className="mb-8 flex flex-col sm:flex-row items-center">
             <LeftBar/>
             <RightBar/>
         </div>
         <SemiFooter/>
         <Footer/>
         <Last/>
-
     </div>
   )
 }

@@ -42,7 +42,7 @@ const NavBar = () => {
           <input
             type="text"
             style={{
-              fontSize:"5px",
+              fontSize:"13px",
               width: "100%",
               height: "20px",
               border: "none",

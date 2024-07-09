@@ -14,16 +14,16 @@ import l from '../images/l.png';
 
 const mockData = [
     { id: 1, image: a, text: 'Shoply v-neck maxi silk gown', price: 300 },
-    { id: 2, image: b, text: 'Shoply Cinderella silk gown', price: 200 },
-    { id: 3, image: c, text: 'Shoply v-neck mermaid dress', price: 150 },
-    { id: 4, image: d, text: 'Shoply red elegant solid color shoulder padded dress', price: 180 },
-    { id: 5, image: e, text: 'Shoply solid peter pan collar blazer with rose', price: 250 },
-    { id: 6, image: f, text: 'Summer solid square neck dress', price: 120 },
-    { id: 7, image: g, text: 'Shoply elegant mesh patchwork puff dress', price: 220 },
-    { id: 8, image: h, text: 'Women’s solid white daily wear long sleeve', price: 90 },
-    { id: 9, image: i, text: 'Solid pu leather body con dress', price: 140 },
-    { id: 10, image: j, text: 'Long sleeves peter pan collar baggy blazer', price: 170 },
-    { id: 11, image: k, text: 'Shoply modely double breasted dress', price: 300 },
+    { id: 2, image: b, text: 'Shoply Cinderella silk gown', price: 300 },
+    { id: 3, image: c, text: 'Shoply v-neck mermaid dress', price: 350 },
+    { id: 4, image: d, text: 'Shoply red elegant solid color shoulder padded dress', price: 400 },
+    { id: 5, image: e, text: 'Shoply solid peter pan collar blazer with rose', price: 700 },
+    { id: 6, image: f, text: 'Summer solid square neck dress', price: 300 },
+    { id: 7, image: g, text: 'Shoply elegant mesh patchwork puff dress', price: 250 },
+    { id: 8, image: h, text: 'Women’s solid white daily wear long sleeve', price: 400 },
+    { id: 9, image: i, text: 'Solid pu leather body con dress', price: 200 },
+    { id: 10, image: j, text: 'Long sleeves peter pan collar baggy blazer', price: 500 },
+    { id: 11, image: k, text: 'Shoply modely double breasted dress', price: 600 },
     { id: 12, image: l, text: 'Shoply ruffle trim ruched bodycon dress', price: 200 },
 ];
 

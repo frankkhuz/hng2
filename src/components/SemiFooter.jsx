@@ -7,7 +7,7 @@ const SemiFooter = () => {
         <img src={truck} alt="" />{" "}
         <span style={{ color: "black" }}>Fast & secure delivery</span>
       </div>
-      <span>24 Hours return policy</span>
+      <span style={{}}>24 Hours return policy</span>
     </div>
   );
 };
