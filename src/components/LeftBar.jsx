@@ -2,7 +2,7 @@ import React from "react";
 
 const LeftBar = () => {
   return (
-    <div className="mt-4 w-1/3 flex flex-col sm:w-100% sm:flex-row">
+    <div className="mt-4 w-1/3 flex flex-col sm:w-full sm:flex-row">
       <button className="bg-gray-300 text-sm w-24 h-8 ml-12">SHOP BY</button>
       <div>
         <div className="border-b-2 border-green-500 flex justify-between items-center w-3/5 ml-8 my-4">
