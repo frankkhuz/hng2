@@ -79,7 +79,7 @@ const RightBar = () => {
         <div style={gridStyle}>
             {mockData.map(item => (
                 <div key={item.id} style={itemStyle}>
-                    <img src={item.image} alt={item.text} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                    <img src={item.image} alt={item.text} style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '13px' }} />
                     <p style={textStyle}>{item.text}</p>
                     <div style={priceButtonContainerStyle}>
                         <p>${item.price}</p>

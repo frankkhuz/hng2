@@ -8,16 +8,17 @@ import master3 from "../images/Vector (11).png"
 
 const Last = () => {
   return (
-    <div style={{backgroundColor:"white",display:"flex",alignItems:"center"}}>
-      <div style={{display:"flex"}}>
+    <div style={{backgroundColor:"white",display:"flex",justifyContent:"space-between",border:"1px solid black",marginRight:"5rem",
+    alignItems:"center", width:"100%"}}>
+      <div style={{display:"flex", marginLeft:"5rem", justifyContent:"space-between",width:"8rem"}}>
        <img src={face} alt=""  style={{height:"2rem", width:"2rem"}}/>
        <img src={link} alt=""  style={{height:"2rem", width:"2rem"}}/>
        <img src={insta} alt=""  style={{height:"2rem", width:"2rem"}}/>
       </div>
-      <div style={{display:"flex", flexDirection:"column", height:"5rem",width:"5rem", border:"1px solid black"}}>
-        <p>Accept for</p>
+      <div style={{display:"flex", height:"5rem",width:"8rem", justifyContent:"space-between",marginRight:"8rem",alignItems:"center"}}>
+        <div style={{display:"flex", width:"10 rem",justifyContent:"space-between"}}><span style={{marginRight:"1rem"}}>Accept</span> <span style={{marginRight:"0.5rem"}}>For</span></div>
         <img src={master1} alt=""  style={{height:"2rem", width:"2rem"}}/>
-        <img src={master2} alt=""  style={{height:"2rem", width:"2rem"}}/>
+        <img src={master2} alt=""  style={{height:"2rem", width:"2rem",}}/>
         <img src={master3} alt=""  style={{height:"2rem", width:"2rem"}}/>
       </div>
     </div>

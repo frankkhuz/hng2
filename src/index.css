@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* styles.css */
+.left-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
+  background-color: #f8f8f8; /* Background color */
+  border-right: 2px solid black; /* Optional border */
+  z-index: 1000; /* Make sure it's on top */
+}
+
+.main-content {
+  margin-left: 200px; /* Same as LeftBar width */
+  width: calc(100% - 200px);
+}
